@@ -1,8 +1,7 @@
 package com.cdio.successor.ui;
 
+import com.cdio.successor.ui.*;
 import com.cdio.ui.successor.R;
-import com.cdio.ui.successor.R.layout;
-import com.cdio.ui.successor.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
