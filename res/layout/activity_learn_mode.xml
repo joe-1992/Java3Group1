@@ -8,4 +8,114 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".LearnModeActivity" >
 
+    <ImageView
+        android:id="@+id/learnModeTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_learn_mode_tittle" />
+
+    <ImageView
+        android:id="@+id/imgFanTi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img24JieQi"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imgShenHua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgMinZu"
+        android:layout_alignTop="@+id/imgFanTi"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imgXiQu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgFanTi"
+        android:layout_below="@+id/imgFanTi"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imgChaoDai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgShenHua"
+        android:layout_alignTop="@+id/imgXiQu"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text24JieQi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img24JieQi"
+        android:layout_below="@+id/img24JieQi"
+        android:text="24节气歌" />
+
+    <TextView
+        android:id="@+id/textFanTi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgFanTi"
+        android:layout_below="@+id/imgFanTi"
+        android:text="繁体字" />
+
+    <TextView
+        android:id="@+id/textShenHua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textFanTi"
+        android:layout_alignBottom="@+id/textFanTi"
+        android:layout_alignLeft="@+id/imgShenHua"
+        android:text="神话故事" />
+
+    <TextView
+        android:id="@+id/textXiQu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgXiQu"
+        android:layout_below="@+id/imgXiQu"
+        android:text="戏剧戏曲" />
+
+    <TextView
+        android:id="@+id/textChaoDai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textXiQu"
+        android:layout_alignBottom="@+id/textXiQu"
+        android:layout_alignLeft="@+id/imgChaoDai"
+        android:text="历史朝代" />
+
+    <ImageView
+        android:id="@+id/img24JieQi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learnModeTittle"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/learnModeTittle"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imgMinZu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textMinZu"
+        android:layout_alignLeft="@+id/learnModeTittle"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textMinZu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgShenHua"
+        android:layout_below="@+id/img24JieQi"
+        android:text="民族文化" />
+
 </RelativeLayout>

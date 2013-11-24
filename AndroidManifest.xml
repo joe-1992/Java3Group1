@@ -26,6 +26,10 @@
             android:name="com.cdio.successor.ui.LearnModeActivity"
             android:label="@string/title_activity_learn_mode" >
         </activity>
+        <activity
+            android:name="com.cdio.successor.ui.JieQiActivity"
+            android:label="@string/title_activity_jie_qi" >
+        </activity>
     </application>
 
 </manifest>
