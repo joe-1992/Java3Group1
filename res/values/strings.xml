@@ -4,5 +4,11 @@
     <string name="app_name">Successor</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="game_part">挑战模式</string>
+    <string name="study_part">学习模式</string>
+    <string name="about_part">关于我们</string>
+    <string name="text_mus">音乐</string>
+    <string name="text_set">设置</string>
+    <string name="text_out">退出</string>
 
 </resources>
