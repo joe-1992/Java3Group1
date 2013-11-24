@@ -31,11 +31,12 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080016;
-        public static final int button_main_about=0x7f08000d;
-        public static final int button_main_game=0x7f08000e;
-        public static final int button_main_out=0x7f080015;
-        public static final int button_main_setting=0x7f080011;
-        public static final int button_main_study=0x7f08000f;
+        public static final int btnAbout=0x7f08000d;
+        public static final int btnExit=0x7f080015;
+        public static final int btnLearn=0x7f08000f;
+        public static final int btnMainGame=0x7f08000e;
+        public static final int btnMusicSwitch=0x7f080010;
+        public static final int btnSetting=0x7f080011;
         public static final int img24JieQi=0x7f080002;
         public static final int imgChaoDai=0x7f080006;
         public static final int imgFanTi=0x7f080001;
@@ -43,7 +44,6 @@ public final class R {
         public static final int imgShenHua=0x7f080003;
         public static final int imgXiQu=0x7f080005;
         public static final int learnModeTittle=0x7f080000;
-        public static final int mediaController1=0x7f080010;
         public static final int text24JieQi=0x7f080007;
         public static final int textChaoDai=0x7f08000b;
         public static final int textFanTi=0x7f080008;
